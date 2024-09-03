@@ -1,0 +1,59 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  handle: MyString
+  title: MyString
+  body: MyString
+  vendor: MyString
+  product_category: MyString
+  type: 
+  tags: MyString
+  published: MyString
+  option1_name: MyString
+  option1_value: MyString
+  variant_sku: MyString
+  variant_grams: 1
+  variant_inventory_tracker: MyString
+  variant_inventory_qty: 1
+  variant_inventory_policy: MyString
+  variant_fulfillment_service: MyString
+  variant_price: 1
+  variant_compare_at_price: 1
+  variant_requires_shipping: MyString
+  variant_taxable: MyString
+  image_src: MyString
+  image_position: MyString
+  gift_card: MyString
+  seo_title: MyString
+  variant_image: MyString
+  variant_weight_unit: MyString
+  status: MyString
+
+two:
+  handle: MyString
+  title: MyString
+  body: MyString
+  vendor: MyString
+  product_category: MyString
+  type: 
+  tags: MyString
+  published: MyString
+  option1_name: MyString
+  option1_value: MyString
+  variant_sku: MyString
+  variant_grams: 1
+  variant_inventory_tracker: MyString
+  variant_inventory_qty: 1
+  variant_inventory_policy: MyString
+  variant_fulfillment_service: MyString
+  variant_price: 1
+  variant_compare_at_price: 1
+  variant_requires_shipping: MyString
+  variant_taxable: MyString
+  image_src: MyString
+  image_position: MyString
+  gift_card: MyString
+  seo_title: MyString
+  variant_image: MyString
+  variant_weight_unit: MyString
+  status: MyString

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_03_185149) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_07_062234) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -22,7 +22,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_03_185149) do
     t.string "product_category"
     t.string "type"
     t.string "tags"
-    t.string "published"
+    t.boolean "published"
     t.string "option1_name"
     t.string "option1_value"
     t.string "variant_sku"
@@ -33,7 +33,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_03_185149) do
     t.string "variant_fulfillment_service"
     t.integer "variant_price"
     t.integer "variant_compare_at_price"
-    t.string "variant_requires_shipping"
+    t.boolean "variant_requires_shipping"
     t.string "variant_taxable"
     t.string "image_src"
     t.string "image_position"

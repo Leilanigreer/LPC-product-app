@@ -55,3 +55,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+ruby "3.3.1"

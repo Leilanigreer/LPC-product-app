@@ -57,3 +57,6 @@ group :test do
 end
 
 ruby "3.3.1"
+
+# For Heroku app
+gem "puma"

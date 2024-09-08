@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_07_062234) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_08_062439) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "collections", force: :cascade do |t|
+  create_table "products", force: :cascade do |t|
     t.string "handle"
     t.string "title"
     t.string "body"
@@ -42,6 +42,12 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_07_062234) do
     t.string "variant_image"
     t.string "variant_weight_unit"
     t.string "status"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "shopify_collections", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
